@@ -1,62 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="card text-center">
-      <img class="img-circle" src="image/maxime.png" alt="Maxime">
-      <h1>Maxime Le Maître</h1>
-      <h2>Fullstack Developer @LeWagon</h2>
-      <p class="description">
-        After a first entrepreneurship experience, I've applied to Le Wagon.
-      </p>
-      <a class="btn-red" href="m.me">See yourself !</a>
-    </div>
-    <div class="card text-center">
-      <ul class="card-list list-inline">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic info</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul>
         <li>
-          <a href=www.facebook.com target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i><br>Facebook</a>
-        <li>
-          <a href=www.twitter.com target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i><br>Twitter</a>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
         </li>
         <li>
-          <a href=www.Linkedin.com target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br>Linkedin</a>
-        </li>
-      </ul>
-    </div>
-    <div class="card text-center">
-      <h2>My hobbies and interests</h2>
-      <ul class="card-list">
-        <li>
-          <img src="image/Basket1.jpg" alt="Basket"><h3>Basket-ball</h3><p>Best sport ever</p>
-        <li>
-          <img src="image/trip.jpg" alt="Travel"><h3>Travel</h3><p>I love to travel around the world</p>
+          <a href="#hobbies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
         </li>
         <li>
-          <img width= auto src="image/newtechno.jpg" alt="Technologies"><h3>New Technologies</h3><p>Passionate about innovation & new technologies</p>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
         </li>
       </ul>
     </div>
-    <div class="card text-center">
-      <ul class="card-list list-inline ">
-        <li>
-          <a href=# target="_blank"><i class="fa fa-heart" aria-hidden="true">
-          </i></a>
-        <li>
-          <a href=# target="_blank"><i class="fa fa-share-square" aria-hidden="true"></i></a>
-        </li>
-        <li>
-          <a href=# target="_blank"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
-        </li>
-      </ul>
+    <div id="page-content">
+      <div class="container">
+        <div class="card text-center" id="summary">
+          <img class="img-circle" src="../image/maxime.png" alt="Maxime">
+          <h1>Maxime Le Maître</h1>
+          <h2>Fullstack Developer @LeWagon</h2>
+          <p class="description">
+            After a first entrepreneurship experience, I've applied to Le Wagon.
+          </p>
+          <a class="btn-red" href="http://m.me/lemaitremaxime">Let's talk!</a>
+        </div>
+        <div class="card text-center" >
+          <ul class="card-list list-inline">
+            <li>
+              <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i><br>Facebook</a>
+            <li>
+              <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i><br>Twitter</a>
+            </li>
+            <li>
+              <a href="http://www.Linkedin.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br>Linkedin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-center" id="hobbies">
+          <h2>My hobbies and interests</h2>
+          <ul class="card-list">
+            <li>
+              <img src="image/Basket1.jpg" alt="Basket"><h3>Basket-ball</h3><p>Best sport ever</p>
+            <li>
+              <img src="image/trip.jpg" alt="Travel"><h3>Travel</h3><p>I love to travel around the world</p>
+            </li>
+            <li>
+              <img width= auto src="image/newtechno.jpg" alt="Technologies"><h3>New Technologies</h3><p>Passionate about innovation & new technologies</p>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-center" id="footer"">
+          <ul class="card-list list-inline ">
+            <li>
+              <a href=# target="_blank"><i class="fa fa-heart" aria-hidden="true">
+              </i></a>
+            <li>
+              <a href=# target="_blank"><i class="fa fa-share-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=# target="_blank"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>
